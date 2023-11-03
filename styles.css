@@ -1,0 +1,10 @@
+h1, h2 {
+    text-indent: 50px;
+    color: #222;
+}
+h3 {
+    text-indent: 60px;
+}
+body {
+    position: relative;
+}
