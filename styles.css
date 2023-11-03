@@ -5,6 +5,11 @@ h1, h2 {
 h3 {
     text-indent: 60px;
 }
-body {
-    position: relative;
+ul {
+    text-indent: 80 px;
+}
+ul li {
+    padding-left: 60px; /* Adjust the value as needed */
+    text-indent: -22px;
+    list-style-position: inside;
 }
