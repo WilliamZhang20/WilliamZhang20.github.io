@@ -10,6 +10,7 @@ ul {
 }
 ul li {
     padding-left: 60px; /* Adjust the value as needed */
-    text-indent: -22px;
+    text-indent: -27px;
+    font-size: 20px;
     list-style-position: inside;
 }
