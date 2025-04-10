@@ -16,7 +16,6 @@ body {
 .box {
     background-color: white;
     margin: 70px auto;
-    border: 20px solid rgb(184, 238, 35);
     padding: 10px;  
 }
 h3 {
