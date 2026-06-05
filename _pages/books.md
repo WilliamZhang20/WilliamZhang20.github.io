@@ -4,4 +4,3 @@ title: bookshelf
 permalink: /books/
 nav: false
 ---
-

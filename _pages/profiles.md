@@ -5,4 +5,3 @@ title: people
 description:
 nav: false
 ---
-
