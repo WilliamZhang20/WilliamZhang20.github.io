@@ -6,7 +6,7 @@ subtitle: Computer engineering student at the <a href='https://uwaterloo.ca/'>Un
 
 profile:
   align: right
-  image:
+  image: headshot_cropped.JPG
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>Computer Engineering</p>
@@ -28,14 +28,13 @@ latest_posts:
 
 Hi, I'm William. I'm a [computer engineering](https://uwaterloo.ca/electrical-computer-engineering/) student at the [University of Waterloo](https://uwaterloo.ca/).
 
-I'm interested in machine learning, hardware, and embedded systems. Recently I have been taking Operating Systems, Control Systems, Digital Hardware, and Linear Algebra 2.
+I'm interested in machine learning, hardware, and embedded systems.
 
 What I've been working on:
 
 - Learning compilers and building a C [compiler](https://github.com/WilliamZhang20/c-compiler) in Rust.
 - Building a custom [AI chip](https://github.com/WilliamZhang20/ECE298A-TPU) on Tiny Tapeout in Verilog and Python, with a custom PyTorch compiler.
 - Developing an algorithmic stock and options [trader](https://github.com/WilliamZhang20/cvx-trader) using [CVXPY](https://www.cvxpy.org/).
-- Researching robot control [algorithms](https://github.com/WilliamZhang20/Robot_Navigation_Wato) under Professor Yash Pant, learning and applying model predictive control and optimization methods.
 - Working through [LeetCode](https://leetcode.com/u/WilliamZhang20/), with 440+ solved problems and a growing focus on design problems.
 
 You can find me on [GitHub](https://github.com/WilliamZhang20/), [LinkedIn](https://www.linkedin.com/in/williamzhang20/), [Bear Blog](https://williamzhang.bearblog.dev/), and [X](https://x.com/william_zhang20).
