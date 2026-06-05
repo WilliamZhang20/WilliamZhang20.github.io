@@ -1,14 +1,10 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - WilliamZhang20
 
 repo_description_lines_max: 2
 
 github_repos:
-  - alshedivat/al-folio
-  - jekyll/jekyll
-  - twbs/bootstrap
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - mathjax/MathJax
-  - jpswalsh/academicons
+  - WilliamZhang20/c-compiler
+  - WilliamZhang20/ECE298A-TPU
+  - WilliamZhang20/cvx-trader
+  - WilliamZhang20/Robot_Navigation_Wato
