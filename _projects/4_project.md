@@ -1,11 +1,11 @@
 ---
 layout: page
-title: Robot Navigation Research
-description: Robot control algorithms using model predictive control and optimization methods.
-importance: 4
-category: robotics
+title: LeetCode Practice
+description: 440+ solved algorithm problems, with a recent focus on design problems.
+importance: 5
+category: practice
 ---
 
-I am researching robot control [algorithms](https://github.com/WilliamZhang20/Robot_Navigation_Wato) under Professor Yash Pant.
+I have solved 440+ [LeetCode](https://leetcode.com/u/WilliamZhang20/) problems and have recently been digging further into design problems.
 
-The work is centered on model predictive control and optimization methods for robot navigation and control.
+This practice complements my systems and hardware work by keeping algorithms, data structures, and implementation patterns sharp.

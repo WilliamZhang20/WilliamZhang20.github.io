@@ -2,10 +2,10 @@
 layout: page
 title: projects
 permalink: /projects/
-description: Selected projects in systems, hardware, trading, robotics, and practice.
+description: Selected projects in systems, hardware, trading, and LeetCode.
 nav: true
 nav_order: 2
-display_categories: [systems, hardware, trading, robotics, practice]
+display_categories: [systems, hardware, trading, LeetCode]
 horizontal: false
 ---
 
