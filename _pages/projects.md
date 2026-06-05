@@ -9,6 +9,13 @@ display_categories: [systems, hardware, trading, robotics, practice]
 horizontal: false
 ---
 
+What I've been working on:
+
+- Learning compilers and building a C [compiler](https://github.com/WilliamZhang20/c-compiler) in Rust.
+- Building a custom [AI chip](https://github.com/WilliamZhang20/ECE298A-TPU) on Tiny Tapeout in Verilog and Python, with a custom PyTorch compiler.
+- Developing an algorithmic stock and options [trader](https://github.com/WilliamZhang20/cvx-trader) using [CVXPY](https://www.cvxpy.org/).
+- Working through [LeetCode](https://leetcode.com/u/WilliamZhang20/), with 440+ solved problems and a growing focus on design problems.
+
 <!-- pages/projects.md -->
 <div class="projects">
 {% if site.enable_project_categories and page.display_categories %}
