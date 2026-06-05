@@ -2,8 +2,4 @@ email: willrz2306@gmail.com
 github_username: WilliamZhang20
 linkedin_username: williamzhang20
 x_username: william_zhang20
-rss_icon: false
-custom_social:
-  logo: /assets/img/letter_w.png
-  title: Bear Blog
-  url: https://williamzhang.bearblog.dev/
+rss_icon: true

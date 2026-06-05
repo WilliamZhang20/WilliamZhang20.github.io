@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Computer engineering student at the <a href='https://uwaterloo.ca/'>University of Waterloo</a>.
+subtitle: Computer engineering student at the University of Waterloo
 
 profile:
   align: right
@@ -10,7 +10,7 @@ profile:
   image_circular: false # crops the image to make it circular
 
 selected_papers: false # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+social: false # includes social icons at the bottom of the page
 
 announcements:
   enabled: false # includes a list of news items
@@ -23,7 +23,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Hi, I'm William. I'm a [computer engineering](https://uwaterloo.ca/electrical-computer-engineering/) student at the [University of Waterloo](https://uwaterloo.ca/).
+Hi, I'm William. I'm a third-year computer engineering student at the [University of Waterloo](https://uwaterloo.ca/).
 
 I'm interested in machine learning, hardware, and embedded systems.
 
@@ -34,4 +34,4 @@ What I've been working on:
 - Developing an algorithmic stock and options [trader](https://github.com/WilliamZhang20/cvx-trader) using [CVXPY](https://www.cvxpy.org/).
 - Working through [LeetCode](https://leetcode.com/u/WilliamZhang20/), with 440+ solved problems and a growing focus on design problems.
 
-You can find me on [GitHub](https://github.com/WilliamZhang20/), [LinkedIn](https://www.linkedin.com/in/williamzhang20/), [Bear Blog](https://williamzhang.bearblog.dev/), and [X](https://x.com/william_zhang20).
+You can find me on [GitHub](https://github.com/WilliamZhang20/), [LinkedIn](https://www.linkedin.com/in/williamzhang20/), and [X](https://x.com/william_zhang20).
