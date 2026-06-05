@@ -8,9 +8,6 @@ profile:
   align: right
   image: headshot_cropped.JPG
   image_circular: false # crops the image to make it circular
-  more_info: >
-    <p>Computer Engineering</p>
-    <p>University of Waterloo</p>
 
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
