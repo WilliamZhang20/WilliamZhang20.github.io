@@ -1,0 +1,5 @@
+# for details on settings, see https://docs.rendercv.com/user_guide/yaml_input_structure/settings/
+rendercv_settings:
+  date: "2026-06-04"
+  bold_keywords: []
+  sort_entries: none
