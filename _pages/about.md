@@ -24,13 +24,9 @@ latest_posts:
 
 I am a third-year computer engineering student at the [University of Waterloo](https://uwaterloo.ca/).
 
-I'm interested in machine learning, hardware, and embedded systems.
+My interests span a wide variety of areas. One of my latest foci is CPU and domain-specific architecture all levels of the stack, including chip design, compilers, ASIC and GPU kernels, and systems programming.
 
-## Interests
-
-My interests span a wide variety of areas. One of my latest foci has been improving the performance of computer architectures at all levels of the stack, including chip design, compilers, ASIC and GPU kernels, and systems programming.
-
-Another area that I am passionate about is convex optimization. I have applied it in my personal projects and open-source contributions to [CVXPY](cvxpy.org). In particular, I like modelling problems in a wide variety of applications using optimization, and applying mathematical optimization algorithms to solve them.
+Another area that I am passionate about is convex optimization. I have applied it in my personal projects and open-source contributions to [CVXPY](https://www.cvxpy.org/). In particular, I like interpreting problems in a wide variety of applications using optimization, and applying mathematical optimization algorithms to solve them.
 
 ## Experience
 
@@ -76,3 +72,11 @@ Another area that I am passionate about is convex optimization. I have applied i
     </div>
   </li>
 </ul>
+
+## Open-Source Contributions
+
+Some of the open-source projects that I have contributed to include:
+- [CVXPY](https://github.com/cvxpy/cvxpy), a Python-embedded modelling language for convex optimization problems, with over 4M downloads/month. Originates from a research project at Stanford University.
+- [CVXPYlayers](https://github.com/cvxpy/cvxpylayers), a Python library for convex optimization-based layers in deep neural networks, compatible with PyTorch, JAX, and MLX.
+- [DCCP](https://github.com/cvxgrp/dccp) (Discplined Convex-Concave Programming), a convex heuristic for solving nonconvex problems.
+- [Tilus](https://github.com/NVIDIA/tilus) a GPU domain-specific language by NVIDIA that provides explicit low-level control and hardware abstraction.
