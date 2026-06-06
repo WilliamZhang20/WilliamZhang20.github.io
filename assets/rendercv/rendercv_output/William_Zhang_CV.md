@@ -40,12 +40,6 @@
 - Optimization
 - Robot control
 
-## LeetCode Practice
-
-- Algorithms
-- Data structures
-- System design practice
-
 # Skills
 
 ## Areas
