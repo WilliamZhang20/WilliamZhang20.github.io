@@ -2,19 +2,12 @@
 layout: page
 title: projects
 permalink: /projects/
-description: Selected projects in systems, hardware, trading, and LeetCode.
+description: Selected projects in systems, hardware, and trading.
 nav: true
 nav_order: 2
-display_categories: [systems, hardware, trading, LeetCode]
+display_categories: [systems, hardware, trading]
 horizontal: false
 ---
-
-What I've been working on:
-
-- Learning compilers and building a C [compiler](https://github.com/WilliamZhang20/c-compiler) in Rust.
-- Building a custom [AI chip](https://github.com/WilliamZhang20/ECE298A-TPU) on Tiny Tapeout in Verilog and Python, with a custom PyTorch compiler.
-- Developing an algorithmic stock and options [trader](https://github.com/WilliamZhang20/cvx-trader) using [CVXPY](https://www.cvxpy.org/).
-- Working through [LeetCode](https://leetcode.com/u/WilliamZhang20/), with 440+ solved problems and a growing focus on design problems.
 
 <!-- pages/projects.md -->
 <div class="projects">

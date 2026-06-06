@@ -6,6 +6,6 @@ importance: 1
 category: systems
 ---
 
-I am learning compilers by building a C [compiler](https://github.com/WilliamZhang20/c-compiler) in Rust.
+I am learning compilers by building a C [compiler](https://github.com/WilliamZhang20/c-compiler) in Rust. It can compile a good portion of the C language, with the exception of a few minor rules and a portion of compiler intrinsics.
 
-The project is a hands-on way to work through parsing, intermediate representations, code generation, and the engineering tradeoffs that show up when a language implementation grows beyond toy examples.
+While most of it was vibe-coded, I have written [blogs](https://williamzhang.bearblog.dev/blog/) about it to reexplain the internals in my own words.

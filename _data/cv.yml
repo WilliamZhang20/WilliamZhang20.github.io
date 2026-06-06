@@ -59,14 +59,6 @@ cv:
           - Optimization
           - Robot control
 
-      - name: LeetCode Practice
-        url: https://leetcode.com/u/WilliamZhang20/
-        summary: Solved 440+ problems, with a recent focus on design problems.
-        highlights:
-          - Algorithms
-          - Data structures
-          - System design practice
-
     Skills:
       - name: Areas
         icon: fa-solid fa-code
