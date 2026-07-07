@@ -2,10 +2,8 @@
 layout: page
 title: projects
 permalink: /projects/
-description: Selected projects in systems, hardware, and trading.
 nav: true
 nav_order: 2
-display_categories: [systems, hardware, trading]
 horizontal: false
 ---
 
