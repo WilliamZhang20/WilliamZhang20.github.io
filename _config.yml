@@ -214,7 +214,6 @@ exclude:
   - docker-compose.yml
   - docker-compose-slim.yml
   - docs/
-  - _posts/
   - FAQ.md
   - Gemfile
   - Gemfile.lock
