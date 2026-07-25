@@ -26,7 +26,9 @@ I am a third-year computer engineering student at the [University of Waterloo](h
 
 My interests span a wide variety of areas. I am especially interested in hardware-software co-design for CPU and domain-specific architectures, spanning chip design, compilers, ASIC and GPU kernels, and systems programming.
 
-Another area that I am passionate about is convex optimization, which I have applied in my personal projects and open-source contributions to [CVXPY](https://www.cvxpy.org/). In particular, I like interpreting problems in a wide variety of applications using optimization, and applying mathematical optimization algorithms to solve them.
+Another area that I am passionate about is convex optimization, which I have applied in my personal projects and open-source contributions to [CVXPY](https://www.cvxpy.org/).
+
+I also work on open-source FPGA [CAD tools](https://github.com/verilog-to-routing/vtr-verilog-to-routing), which apply optimization.
 
 ## Experience
 
