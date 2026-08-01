@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="820" viewBox="0 0 1400 820" role="img" aria-labelledby="title desc">
+  <title id="title">Controller selection by task structure</title>
+  <desc id="desc">A six-row table mapping task structure to the failure of a simple controller and the retained JEPA-based controller.</desc>
+  <style>
+    .title { font: 700 38px Arial, sans-serif; fill: #1f2937; }
+    .subtitle { font: 400 20px Arial, sans-serif; fill: #4b5563; }
+    .header { font: 700 19px Arial, sans-serif; fill: #ffffff; }
+    .task { font: 700 17px Arial, sans-serif; fill: #1f2937; }
+    .body { font: 400 16px Arial, sans-serif; fill: #374151; }
+    .controller { font: 700 16px Arial, sans-serif; fill: #075985; }
+    .note { font: 400 15px Arial, sans-serif; fill: #4b5563; }
+  </style>
+  <rect width="1400" height="820" fill="#ffffff"/>
+  <text x="70" y="65" class="title">Controller selection follows task structure</text>
+  <text x="70" y="100" class="subtitle">The retained controller changes when the action manifold, physics, or planning horizon changes.</text>
+
+  <rect x="60" y="135" width="1280" height="60" rx="10" fill="#0f4c5c"/>
+  <text x="90" y="172" class="header">Task structure</text>
+  <text x="475" y="172" class="header">What breaks with a simpler controller</text>
+  <text x="930" y="172" class="header">Retained controller</text>
+
+  <g>
+    <rect x="60" y="205" width="1280" height="82" fill="#f8fafc"/>
+    <text x="90" y="238" class="task">Smooth, short-horizon dynamics</text>
+    <text x="90" y="263" class="body">FetchReach</text>
+    <text x="475" y="248" class="body">Candidate search remains tractable.</text>
+    <text x="930" y="248" class="controller">Latent model-predictive control</text>
+  </g>
+  <g>
+    <rect x="60" y="287" width="1280" height="82" fill="#eaf3f5"/>
+    <text x="90" y="320" class="task">Multimodal contact chunks</text>
+    <text x="90" y="345" class="body">FetchPush, FetchPickAndPlace</text>
+    <text x="475" y="330" class="body">Averaging actions loses a coherent push or grasp.</text>
+    <text x="930" y="330" class="controller">Flow or inverse prior + JEPA ranking</text>
+  </g>
+  <g>
+    <rect x="60" y="369" width="1280" height="82" fill="#f8fafc"/>
+    <text x="90" y="402" class="task">Ballistic, commit-and-coast event</text>
+    <text x="90" y="427" class="body">FetchSlide</text>
+    <text x="475" y="412" class="body">Frame-level replanning misses the impact timescale.</text>
+    <text x="930" y="412" class="controller">Goal-frame endpoint world model</text>
+  </g>
+  <g>
+    <rect x="60" y="451" width="1280" height="82" fill="#eaf3f5"/>
+    <text x="90" y="484" class="task">Long route with obstacles</text>
+    <text x="90" y="509" class="body">PointMaze, AntMaze</text>
+    <text x="475" y="494" class="body">Flat control or Gaussian macro search crosses walls.</text>
+    <text x="930" y="494" class="controller">Macro hierarchy + flow walker</text>
+  </g>
+  <g>
+    <rect x="60" y="533" width="1280" height="82" fill="#f8fafc"/>
+    <text x="90" y="566" class="task">Distinct contact modes</text>
+    <text x="90" y="591" class="body">Adroit Relocate</text>
+    <text x="475" y="576" class="body">One policy mixes reaching and transporting.</text>
+    <text x="930" y="576" class="controller">Reach and held-object specialists</text>
+  </g>
+  <g>
+    <rect x="60" y="615" width="1280" height="82" fill="#eaf3f5"/>
+    <text x="90" y="648" class="task">Multi-step task composition</text>
+    <text x="90" y="673" class="body">FrankaKitchen</text>
+    <text x="475" y="658" class="body">A local controller does not choose a feasible order.</text>
+    <text x="930" y="658" class="controller">Handoff graph + inverse specialists</text>
+  </g>
+
+  <line x1="445" y1="135" x2="445" y2="697" stroke="#cbd5e1" stroke-width="2"/>
+  <line x1="900" y1="135" x2="900" y2="697" stroke="#cbd5e1" stroke-width="2"/>
+  <text x="70" y="755" class="note">JEPA provides consequence prediction or scoring; the surrounding controller is chosen to match the task's structure.</text>
+</svg>
