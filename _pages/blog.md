@@ -100,7 +100,7 @@ description:
     <ul class="blog-posts" aria-label="All posts">
     	<li>
     		<div>
-    			<a class="blog-post-title" href="{{ '/blog/2026/stretching-the-limits-of-jepa-models/' | relative_url }}">Training JEPA World Models for Robots in Simulation</a>
+    			<a class="blog-post-title" href="{{ '/blog/2026/training-jepa-world-models/' | relative_url }}">Training JEPA World Models for Robots in Simulation</a>
     			<div class="blog-meta">18 min read &nbsp; &middot; &nbsp; July 25, 2026 <span class="blog-source">&nbsp; &middot; &nbsp; this site</span></div>
     		</div>
     		<div class="blog-year">2026</div>
