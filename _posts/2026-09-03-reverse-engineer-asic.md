@@ -43,7 +43,7 @@ The final answer from the output under that successful input stream was `(* TWO 
 
 ## Extracting the Easter Eggs
 
-The first two easter eggs were found by feeding all zeros and all ones into the input sequence. These produced the output ASCII strings “THE NIGHT SKY AWAITS” and “BIG BANG,” respectively.
+The first two easter eggs were found by feeding all zeros and all ones into the input sequence. These produced the output ASCII strings “EMPTY SKY” and “BIG BANG,” respectively.
 
 Another easter egg was found in the example inputs file, which contained two separate 121-bit input sequences. The chip was fed one, disabled, and then fed the other; both produced “TRY AGAIN.” Splitting each 121-bit stream into eleven rows of eleven bits, then interpreting columns 0–6 of each row as a 7-bit, least-significant-bit-first ASCII character, produced:
 
