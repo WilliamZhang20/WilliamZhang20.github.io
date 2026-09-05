@@ -100,6 +100,13 @@ description:
     <ul class="blog-posts" aria-label="All posts">
     	<li>
     		<div>
+    			<a class="blog-post-title" href="{{ '/blog/2026/reverse-engineer-asic/' | relative_url }}">Completing the Reverse Engineer an ASIC Challenge</a>
+    			<div class="blog-meta">September 3, 2026 <span class="blog-source">&nbsp; &middot; &nbsp; this site</span></div>
+    		</div>
+    		<div class="blog-year">2026</div>
+    	</li>
+    	<li>
+    		<div>
     			<a class="blog-post-title" href="{{ '/blog/2026/training-jepa-world-models/' | relative_url }}">Training JEPA World Models for Robots</a>
     			<div class="blog-meta">18 min read &nbsp; &middot; &nbsp; July 25, 2026 <span class="blog-source">&nbsp; &middot; &nbsp; this site</span></div>
     		</div>
