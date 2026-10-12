@@ -30,8 +30,8 @@ I am a third-year (3B) computer engineering student at the [University of Waterl
 I work on making machine learning run effciently on hardware, through:
 
 - **GPU optimization**: writing and tuning GPU kernels
-- **ML models**: understanding and optimizing how models map onto hardware
-- **Compilers**: lowering and optimizing code for GPUs and other domain-specific architectures
+- **ML models**: understanding and optimizing how models learn and map onto hardware
+- **Compilers**: lowering and optimizing kernels and models for GPUs and other domain-specific architectures
 
 ## Also Exploring
 
