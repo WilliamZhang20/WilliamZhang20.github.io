@@ -38,7 +38,7 @@ I work on making machine learning run effciently on hardware, through:
 Areas I'm passionate about outside of my main focus:
 
 - **RTL and chip design**: CPU and ASIC design. Taped out a chip on Tiny Tapeout, another one in progress!
-- **Convex optimization**: applied in personal projects and open-source contributions to [CVXPY](https://www.cvxpy.org/). I am also supplementing my knowledge by taking [CO 255](https://uwflow.com/course/CO255 at school.
+- **Convex optimization**: applied in personal projects and open-source contributions to [CVXPY](https://www.cvxpy.org/). I am also supplementing my knowledge by taking [CO 255](https://uwflow.com/course/CO255) at school.
 - **FPGA CAD**: open-source [CAD tools](https://github.com/verilog-to-routing/vtr-verilog-to-routing) that apply optimization to placement and routing
 
 ## Experience
