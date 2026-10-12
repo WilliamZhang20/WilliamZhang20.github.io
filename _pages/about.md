@@ -38,7 +38,7 @@ I work on making machine learning run effciently on hardware, through:
 Areas I'm passionate about outside of my main focus:
 
 - **RTL and chip design**: CPU and ASIC design. Taped out a chip on Tiny Tapeout, another one in progress!
-- **Convex optimization**: applied in personal projects and open-source contributions to [CVXPY](https://www.cvxpy.org/). I'm also currently taking [CO 255](https://uwflow.com/course/CO255).
+- **Convex optimization**: applied in personal projects and open-source contributions to [CVXPY](https://www.cvxpy.org/). I am also supplementing my knowledge by taking [CO 255](https://uwflow.com/course/CO255 at school.
 - **FPGA CAD**: open-source [CAD tools](https://github.com/verilog-to-routing/vtr-verilog-to-routing) that apply optimization to placement and routing
 
 ## Experience
@@ -103,7 +103,7 @@ Some of the open-source projects that I have contributed to include:
   - [Huber scale parameter](https://github.com/cvxpy/cvxpy/pull/3344): extended the `huber` atom with a scale parameter `t`, adding a new perspective-based atom `t·huber(x/t, M)` that stays convex and DCP-compliant, so users can jointly optimize over the scale of a robust loss.
   - [Dual feasibility checks](https://github.com/cvxpy/cvxpy/pull/3441): implemented constraint residuals across CVXPY's constraint types to enable post-solve checks of dual feasibility, helping users verify solver results.
 - [CVXPYlayers](https://github.com/cvxpy/cvxpylayers), a Python library for convex optimization-based layers in deep neural networks, compatible with PyTorch, JAX, and MLX.
-  - [Custom solver interface](https://github.com/cvxpy/cvxpylayers/pull/233): enabled plugging custom solvers, such as generated C code from CVXPYgen, into differentiable layers in both PyTorch and JAX.
+  - [Custom solver interface](https://github.com/cvxpy/cvxpylayers/pull/233): enabled plugging custom solvers, such as generated C code from CVXPYgen, into differentiable layers in both PyTorch and JAX. The generated C solver can enable 3.3x faster solve times than default paths.
 - [DCCP](https://github.com/cvxgrp/dccp) (Discplined Convex-Concave Programming), a convex heuristic for solving nonconvex problems.
   - [DPP compatibility](https://github.com/cvxgrp/dccp/pull/118): parametrized the linearization so each iteration updates parameters instead of rebuilding the problem, resulting in 30% speedups.
 - [Tilus](https://github.com/NVIDIA/tilus), a GPU domain-specific language by NVIDIA that provides explicit low-level control and hardware abstraction.
