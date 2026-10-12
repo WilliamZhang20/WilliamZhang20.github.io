@@ -24,15 +24,36 @@ latest_posts:
 
 I am a third-year computer engineering student at the [University of Waterloo](https://uwaterloo.ca/).
 
-My interests span a wide variety of areas. I am especially interested in hardware-software co-design for CPU and domain-specific architectures, spanning chip design, compilers, ASIC and GPU kernels, and systems programming.
 
-Another area that I am passionate about is convex optimization, which I have applied in my personal projects and open-source contributions to [CVXPY](https://www.cvxpy.org/).
+## Main Focus
 
-I also work on open-source FPGA [CAD tools](https://github.com/verilog-to-routing/vtr-verilog-to-routing), which apply optimization.
+I work on making machine learning run effciently on hardware, through:
+
+- **GPU optimization**: writing and tuning GPU kernels
+- **ML models**: understanding and optimizing how models map onto hardware
+- **Compilers**: lowering and optimizing code for GPUs and other domain-specific architectures
+
+## Also Exploring
+
+Areas I'm passionate about outside of my main focus:
+
+- **Convex optimization**: applied in personal projects and open-source contributions to [CVXPY](https://www.cvxpy.org/)
+- **FPGA CAD**: open-source [CAD tools](https://github.com/verilog-to-routing/vtr-verilog-to-routing) that apply optimization to placement and routing
+- **RTL and chip design**: CPU and ASIC design. Taped out a chip on Tiny Tapeout, another one in progress!
 
 ## Experience
 
 <ul>
+  <li class="mb-3">
+    <div class="d-flex justify-content-between align-items-baseline w-100">
+      <span>NVIDIA</span>
+      <span class="text-nowrap ms-3">Jan. 2027 - Apr. 2027</span>
+    </div>
+    <div class="d-flex justify-content-between align-items-baseline w-100">
+      <span>Software Engineer Intern</span>
+      <span class="text-nowrap ms-3"><em>Toronto, Canada</em></span>
+    </div>
+  </li>
   <li class="mb-3">
     <div class="d-flex justify-content-between align-items-baseline w-100">
       <span>Cerebras Systems</span>
