@@ -57,7 +57,7 @@ Areas I'm passionate about outside of my main focus:
   <li class="mb-3">
     <div class="d-flex justify-content-between align-items-baseline w-100">
       <span>Cerebras Systems</span>
-      <span class="text-nowrap ms-3">May 2026 - Aug. 2025</span>
+      <span class="text-nowrap ms-3">May 2026 - Aug. 2026</span>
     </div>
     <div class="d-flex justify-content-between align-items-baseline w-100">
       <span>Software Engineer Intern</span>
