@@ -22,7 +22,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am a third-year computer engineering student at the [University of Waterloo](https://uwaterloo.ca/).
+I am a third-year (3B) computer engineering student at the [University of Waterloo](https://uwaterloo.ca/).
 
 
 ## Main Focus
@@ -37,9 +37,9 @@ I work on making machine learning run effciently on hardware, through:
 
 Areas I'm passionate about outside of my main focus:
 
-- **Convex optimization**: applied in personal projects and open-source contributions to [CVXPY](https://www.cvxpy.org/)
-- **FPGA CAD**: open-source [CAD tools](https://github.com/verilog-to-routing/vtr-verilog-to-routing) that apply optimization to placement and routing
 - **RTL and chip design**: CPU and ASIC design. Taped out a chip on Tiny Tapeout, another one in progress!
+- **Convex optimization**: applied in personal projects and open-source contributions to [CVXPY](https://www.cvxpy.org/). I'm also currently taking [CO 255](https://uwflow.com/course/CO255).
+- **FPGA CAD**: open-source [CAD tools](https://github.com/verilog-to-routing/vtr-verilog-to-routing) that apply optimization to placement and routing
 
 ## Experience
 
@@ -100,6 +100,13 @@ Areas I'm passionate about outside of my main focus:
 
 Some of the open-source projects that I have contributed to include:
 - [CVXPY](https://github.com/cvxpy/cvxpy), a Python-embedded modelling language for convex optimization problems, with over 4M downloads/month. Originates from a research project at Stanford University.
+  - [Huber scale parameter](https://github.com/cvxpy/cvxpy/pull/3344): extended the `huber` atom with a scale parameter `t`, adding a new perspective-based atom `t·huber(x/t, M)` that stays convex and DCP-compliant, so users can jointly optimize over the scale of a robust loss.
+  - [Dual feasibility checks](https://github.com/cvxpy/cvxpy/pull/3441): implemented constraint residuals across CVXPY's constraint types to enable post-solve checks of dual feasibility, helping users verify solver results.
 - [CVXPYlayers](https://github.com/cvxpy/cvxpylayers), a Python library for convex optimization-based layers in deep neural networks, compatible with PyTorch, JAX, and MLX.
+  - [Custom solver interface](https://github.com/cvxpy/cvxpylayers/pull/233): enabled plugging custom solvers, such as generated C code from CVXPYgen, into differentiable layers in both PyTorch and JAX.
 - [DCCP](https://github.com/cvxgrp/dccp) (Discplined Convex-Concave Programming), a convex heuristic for solving nonconvex problems.
+  - [DPP compatibility](https://github.com/cvxgrp/dccp/pull/118): parametrized the linearization so each iteration updates parameters instead of rebuilding the problem, resulting in 30% speedups.
 - [Tilus](https://github.com/NVIDIA/tilus), a GPU domain-specific language by NVIDIA that provides explicit low-level control and hardware abstraction.
+  - [Hopper matmul examples](https://github.com/NVIDIA/tilus/pull/159): wrote a progression of Hopper GEMM kernels reaching ~108% of cuBLAS throughput on an H100 (FP16, 8192³).
+  - [Faster compilation](https://github.com/NVIDIA/tilus/pull/163): cut autotuning re-run latency via dependency-aware specialization keys and compiler fingerprinting, taking a full 12-schedule first call from ~3.1 s to ~65 ms (~48x).
+- [Mirage Persistent Kernel](https://github.com/mirage-project/mirage), a megakernel compiler for models being developed by the CMU Catalyst Lab. Work still in progress!
